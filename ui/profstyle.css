@@ -100,7 +100,23 @@ button {
 button:hover, a:hover {
     opacity: 0.7;
 }
-
+.loc-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.loc-button:hover, a:hover {
+    cursor: pointer;
+    background:black;
+    color:white;
+}
 .redflag-box{
     box-shadow: teal;
     max-width: 500px;
@@ -128,7 +144,18 @@ button {
 button:hover, a:hover {
     opacity: 0.7;
 }
+.timeline {
+    position: relative;
+    left: 200px;
+    border: 1px solid #008080;
+}
+.timeline-text {
+    text-decoration: none;
+    font-size: 22px;
+    color:teal;
+}
 .foobar{
+    position: static;
     overflow: hidden;
     background-color:teal;
 }
