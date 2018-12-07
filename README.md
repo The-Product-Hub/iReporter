@@ -1,9 +1,4 @@
 
-**iReporter API**
-
-This is where all iReporter API updates and changes will be updated and commited.
-
-
 **iReporter:**
 
 With the increase in corruption and the decrease in action for corruption cases. Reporting corruption has only become harder. iReporter aims to decrease this gap by providing a solution for this corruption menace.
