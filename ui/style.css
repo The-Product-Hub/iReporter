@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: teal;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color: teal;
+    background: teal (0, 0, 0, 0.5);
+}
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover{
+    cursor: pointer;
+    background: black;
+}
+.foobar{
+    overflow: hidden;
+    background-color: black;
+    position: bottom;
+}
+.foobar a{
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.foobar a:hover{
+    cursor: pointer;
+    background: teal;
+    color:white; 
+}
+.foodeets {
+    float: left;
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* .img {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.img .btn {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    transform: translate(-10, -30);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.img .btn:hover {
+    background-color:teal;
+} */
