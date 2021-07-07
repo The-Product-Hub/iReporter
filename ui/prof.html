@@ -1,0 +1,125 @@
+<html>
+<head>
+
+    <meta lang="en">
+    <meta charset="utf-8" equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="profstyle.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="btn-group">
+            <a class="active" href="#profile">Help</a>
+            <a class="active" href="prof.html">Profile</a>
+            <a class="active" href="index.html">Home</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="batman.JPG" alt="profpic" class="image">
+        <h1 class="title">Bruce Wayne</h1>
+        <h2 class="title">bat_man</h2>
+        <p class="title">batman@gmail.com</p>
+        <p>0 iPoints</p> 
+        <p><button>Change profile settings</button></p>
+        <br>
+<!-- 
+`   <div class="timeline">Timeline</div>
+        <h1 class="timeline-text">Reports</h1>
+             -->
+    <div class="inter-box">
+        <h1 class="txt">Make A New Intervention Report</h1>
+        <input type="txt" name="report" placeholder="Enter Report">
+        <h3 class="txt">Upload</h3>
+        <input type="file" name="upload" placeholder="Upload Image/Video">
+        <h3 class="txt">Tag Location</h3>
+        <button class="loc-button" click="getLocation()">Get Location</button>        
+        <iframe
+            width="450"
+            height="350"
+            src="http://maps.google.co.ke;output=embed">
+        </iframe>            
+            <script>
+            var x = document.getElementById("demo");
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else { 
+                        x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude + 
+            "<br>Longitude: " + position.coords.longitude;
+        }
+        </script><br>
+
+        <p><button>Submit Intervention</button></p>
+        <br>
+
+    <div class="redflag-box">
+        <h1 class="text">Make A New Red-flag Report</h1>
+        <input type="text" name="report" placeholder="Enter Report">
+        <h3 class="text">Upload</h3>
+        <input type="file" name="upload" placeholder="Upload Image/Video">
+        <h3 class="text">Tag Location</h3>
+        <button class="loc-button" click="getLocation()">Get Location</button>
+        <iframe
+            width="450"
+            height="350"
+            src="http://maps.google.co.ke;output=embed">
+        </iframe>
+            <script>
+            var x = document.getElementById("demo");
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else { 
+                        x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude + 
+            "<br>Longitude: " + position.coords.longitude;
+        }
+        </script><br>
+        <p><button>Submit Red-flag</button></p>
+        <br>
+
+    <div class="histo-box">
+        <h1 class="histo">Red-flags History</h1><br>
+        <h3 class="histo">Today</h3><br>
+        <p class="histo">No Reports Today</p><br>
+        <h3 class="histo">This Week</h3><br>
+        <p class="histo">No Reports Made This Week</p><br>
+        <h3 class="histo">This Month</h3><br>
+        <p class="histo">No Reports Made This Month</p><br>
+        <p><button>Delete Reports</button></p>
+        <br>
+            
+    </div>
+    </div>
+          
+</body>
+ 
+    <footer>
+  
+        <div class="foobar">
+          <a class="btn" type="button" href="#">Privacy</a>
+          <a class="btn" type="button" href="#">Contact us</a>
+          <a class="btn" type="button" href="#">Donate</a>
+          <br>
+        <div class="foodeets">
+          <br> 
+        <div id="copyright" class="hoc clear"> 
+        <p class="footac">Copyright &copy; 2018 - All Rights Reserved</p>
+        </div>
+        </div>
+        </div>
+      
+    </footer> 
+</html>  

@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    background-color:teal;
+}
+.navbar a {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    cursor: pointer;
+    background: black;
+}  
+.card {
+    background: white;
+    box-shadow: teal;
+    /* max-width: 600px; */
+    margin: 10px 10px;
+    text-align: center;
+    font-family: sans-serif, Arial;
+}
+.card image {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.title {
+    text-decoration: none;
+    font-size: 22px;
+    color:teal;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+    background-color:black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover, a:hover {
+    cursor: pointer;
+    background:teal;
+    color: black;
+}
+.histo-box {
+    /* max-width: 600px; */
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.histo {
+    text-decoration: none;
+    font-size: 22px;
+    color:teal;
+}
+.inter-box{
+    box-shadow: teal;
+    /* max-width: 500px; */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+} 
+.txt {
+    text-decoration: none;
+    font-size: 22px;
+    color:green;
+}
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+/* button:hover, a:hover {
+    opacity: 0.7;
+} */
+.loc-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.loc-button:hover, a:hover {
+    cursor: pointer;
+    background:black;
+    color:white;
+}
+.redflag-box{
+    box-shadow: teal;
+    /* max-width: 500px; */
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}  
+.text {
+    text-decoration: none;
+    font-size: 22px;
+    color:red;
+}  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+/* .timeline {
+    position: relative;
+    left: 200px;
+    border: 1px solid #008080;
+}
+.timeline-text {
+    text-decoration: none;
+    font-size: 22px;
+    color:teal;
+} */
+.foobar{
+    overflow: hidden;
+    background-color: black;
+    position: bottom;
+}
+.foobar a{
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.foobar a:hover{
+    cursor: pointer;
+    background: teal;
+    color:white; 
+}
+.foodeets {
+    float: left;
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 15px;
+}
